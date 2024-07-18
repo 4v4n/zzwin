@@ -1,17 +1,13 @@
  
 import './App.css'
+import Home from './page/Home'
 
 function App() {
    
 
   return (
     <>
-       <header>
-        zzwin
-       </header>
-       <footer>
-        
-       </footer>
+      <Home />
     </>
   )
 }

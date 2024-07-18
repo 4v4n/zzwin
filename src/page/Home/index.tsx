@@ -10,8 +10,19 @@ const Home:React.FC = React.memo(()=>{
 
      </main>
      <footer>
-        .{clsx(style.footerItem)}
-        </footer>    
+        <div className={clsx(style.footerItem)}>
+            Home
+        </div>
+        <div className={clsx(style.footerItem)}>
+            Browse
+        </div>
+        <div className={clsx(style.footerItem)}>
+            Saved
+        </div>
+        <div className={clsx(style.footerItem)}>
+            Account
+        </div>
+      </footer>    
     </>
   )
 })
