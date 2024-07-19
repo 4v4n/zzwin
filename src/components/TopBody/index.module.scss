@@ -1,0 +1,19 @@
+.container{
+  width:390rem;
+}
+
+.swiperFeature{
+  padding:10rem;
+  background:linear-gradient(to top, rgb(141, 141, 208),rgb(75, 75, 127))
+}
+ 
+.featureCard{
+    width:100rem;
+    height:50rem;
+    background:blue;
+    box-shadow:2rem 2rem 2rem 0 rgba(0,0,0,.2);
+    background:aliceblue;
+    border-radius: 8rem;display:flex;
+    align-items:center;
+    justify-content: center;
+}
